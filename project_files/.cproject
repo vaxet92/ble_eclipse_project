@@ -7,7 +7,9 @@
 					<stringMacro name="PROJ_DIR" type="VALUE_PATH_DIR" value="C:\Users\Anton\Documents\Eclipse_projects\EclipseWorkspace\ble_project\project_files"/>
 					<stringMacro name="SDK_ROOT" type="VALUE_PATH_DIR" value="C:\Users\Anton\Documents\Eclipse_projects\EclipseWorkspace\ble_project\nRF5_SDK_15.3.0_59ac345"/>
 				</macros>
-				<externalSettings/>
+				<externalSettings>
+					<externalSetting/>
+				</externalSettings>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -124,9 +126,10 @@
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\fstorage&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\text&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\mutex&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\gpiote&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\gfx&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\bootloader\ble_dfu&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\connection_handover\common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\fifo&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\boards&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\generic\record&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\t4t_parser\cc_file&quot;"/>
@@ -140,15 +143,16 @@
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\queue&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\pwr_mgmt&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_dtm&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\toolchain\cmsis\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\toolchain\cmsis/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_rscs_c&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_lls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\bsp&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\connection_handover\ac_rec&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_bas&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\mpu&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\experimental_section_vars&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\softdevice\s132\headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\softdevice\s132/headers&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_ans_c&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\slip&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\delay&quot;"/>
@@ -169,6 +173,7 @@
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\cli&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_lbs&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_hts&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_cts_c&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\crc16&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\t4t_parser\apdu&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\util&quot;"/>
@@ -179,10 +184,12 @@
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\ecc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\hardfault&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_cscs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\uart&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\hci&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\usbd\class\hid\kbd&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\timer&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\integration\nrfx&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\t4t_parser\tlv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\t4t_parser/tlv&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\sortlist&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\spi_mngr&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\led_softblink&quot;"/>
@@ -190,7 +197,7 @@
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\sdcard&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\parser\record&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\modules\nrfx\mdk&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_cts_c&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_link_ctx_manager&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_nus&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\twi_mngr&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_hids&quot;"/>
@@ -205,17 +212,17 @@
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\mem_manager&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\ringbuf&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_tps&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\parser/message&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\parser\message&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_dis&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\uri&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef/uri&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\nrf_ble_gatt&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\nrf_ble_qwr&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\gfx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\gpiote&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\button&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\modules\nrfx&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\twi_sensor&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\integration\nrfx\legacy&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\usbd\class\hid\kbd&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\usbd&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\connection_handover\ep_oob_rec&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\external\segger_rtt&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\atomic_fifo&quot;"/>
@@ -229,10 +236,16 @@
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_hrs&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\ble\ble_services\ble_rscs&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\connection_handover\hs_rec&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\usbd&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\conn_hand_parser\ac_rec_parser&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc/ndef\conn_hand_parser\ac_rec_parser&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\stack_guard&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\libraries\log\src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\toolchain\cmsis\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\softdevice\s132\headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../..\config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\t4t_parser\tlv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\parser/message&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\uri&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\components\nfc\ndef\conn_hand_parser\ac_rec_parser&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${SDK_ROOT}\modules\nrfx\soc&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1474351392" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
@@ -265,11 +278,14 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605.702116345" name="sdk_config.h" rcbsApplicability="disable" resourcePath="Application/sdk_config.h" toolsToInvoke=""/>
 					<sourceEntries>
-						<entry excluding="UTF8/UTF16 converter|CMSIS|nRF_Driversvcb|nRF_Libraries|nRF_BLE_Servicesfd|nRF_BLE-вапв|Board Definition|Application|nRF_Log|nRF_SoftDevice" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Application"/>
+						<entry excluding="UTF8/UTF16 converter|nRF_Drivers|CMSIS|nRF_BLE|nRF_Libraries|Board Definition|nRF_Log|nRF_BLE_Services|nRF_SoftDevice" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Board Definition"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="UTF8/UTF16 converter"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_BLE"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_BLE_Services"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Libraries"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Log"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_SoftDevice"/>
@@ -295,18 +311,6 @@
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="blinky_new_Makefile.null.1132277797" name="blinky_new_Makefile"/>
-	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1704254280;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1704254280.252522816;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.2006809502;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1024295614">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605.2085889489;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1769447530;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1501288657">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605.2085889489;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1249624638;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1474351392">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
@@ -350,5 +354,17 @@
 				<runAllBuilders>true</runAllBuilders>
 			</target>
 		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1704254280;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1704254280.252522816;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.2006809502;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1024295614">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605.2085889489;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1249624638;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1474351392">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605;ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.245848605.2085889489;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1769447530;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1501288657">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>

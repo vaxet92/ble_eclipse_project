@@ -1,5 +1,5 @@
-_build/nrf52832_xxaa/ble_lbs.c.o: \
- ../nRF5_SDK_15.3.0_59ac345/components/ble/ble_services/ble_lbs/ble_lbs.c \
+_build/nrf52832_xxaa/ble_advertising.c.o: \
+ ../nRF5_SDK_15.3.0_59ac345/components/ble/ble_advertising/ble_advertising.c \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_common.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\lib\gcc\arm-none-eabi\7.3.1\include\stdint.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-eabi\include\stdint.h \
@@ -45,7 +45,7 @@ _build/nrf52832_xxaa/ble_lbs.c.o: \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/nrf_svc.h \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_macros.h \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nrf_assert.h \
- ../nRF5_SDK_15.3.0_59ac345/components/ble/ble_services/ble_lbs/ble_lbs.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/ble/common/ble_advdata.h \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble.h \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/nrf_svc.h \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/nrf_error.h \
@@ -58,17 +58,26 @@ _build/nrf52832_xxaa/ble_lbs.c.o: \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gatt.h \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gattc.h \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gatts.h \
- ../nRF5_SDK_15.3.0_59ac345/components/ble/common/ble_srv_common.h \
- ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_types.h \
- ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/app_util.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/ble/ble_advertising/ble_advertising.h \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gap.h \
- ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gatt.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gattc.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/nrf_soc.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/nrf_error_soc.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/experimental_section_vars/nrf_section.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nordic_common.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/strerror/nrf_strerror.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_errors.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/src/nrf_log_internal.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/app_util.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_instance.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_types.h \
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_types.h \
  ../nRF5_SDK_15.3.0_59ac345/components/softdevice/common/nrf_sdh_ble.h \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/experimental_section_vars/nrf_section_iter.h \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/experimental_section_vars/nrf_section.h \
- ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nordic_common.h \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nrf_assert.h \
- ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_errors.h
+ ../nRF5_SDK_15.3.0_59ac345/components/softdevice/common/nrf_sdh_soc.h
 
 ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_common.h:
 
@@ -160,7 +169,7 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 
 ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nrf_assert.h:
 
-../nRF5_SDK_15.3.0_59ac345/components/ble/ble_services/ble_lbs/ble_lbs.h:
+../nRF5_SDK_15.3.0_59ac345/components/ble/common/ble_advdata.h:
 
 ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble.h:
 
@@ -186,15 +195,35 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 
 ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gatts.h:
 
-../nRF5_SDK_15.3.0_59ac345/components/ble/common/ble_srv_common.h:
-
-../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_types.h:
-
-../nRF5_SDK_15.3.0_59ac345/components/libraries/util/app_util.h:
+../nRF5_SDK_15.3.0_59ac345/components/ble/ble_advertising/ble_advertising.h:
 
 ../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gap.h:
 
-../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gatt.h:
+../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/ble_gattc.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/nrf_soc.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/softdevice/s132/headers/nrf_error_soc.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/experimental_section_vars/nrf_section.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nordic_common.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/strerror/nrf_strerror.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_errors.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/log/src/nrf_log_internal.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/util/app_util.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_instance.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_types.h:
+
+../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_types.h:
 
 ../nRF5_SDK_15.3.0_59ac345/components/softdevice/common/nrf_sdh_ble.h:
 
@@ -202,8 +231,6 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 
 ../nRF5_SDK_15.3.0_59ac345/components/libraries/experimental_section_vars/nrf_section.h:
 
-../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nordic_common.h:
-
 ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nrf_assert.h:
 
-../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_errors.h:
+../nRF5_SDK_15.3.0_59ac345/components/softdevice/common/nrf_sdh_soc.h:

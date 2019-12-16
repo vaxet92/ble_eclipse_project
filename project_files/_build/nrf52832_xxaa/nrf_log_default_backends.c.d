@@ -76,7 +76,7 @@ _build/nrf52832_xxaa/nrf_log_default_backends.c.o: \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/src/nrf_log_internal.h \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_types.h \
  ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nrf_assert.h \
- ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_backend_uart.h
+ ../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_backend_rtt.h
 
 ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/sdk_common.h:
 
@@ -230,4 +230,4 @@ c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\7\ 2018-q2-update\arm-none-ea
 
 ../nRF5_SDK_15.3.0_59ac345/components/libraries/util/nrf_assert.h:
 
-../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_backend_uart.h:
+../nRF5_SDK_15.3.0_59ac345/components/libraries/log/nrf_log_backend_rtt.h:
